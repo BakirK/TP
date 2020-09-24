@@ -1,0 +1,42 @@
+==30737== Memcheck, a memory error detector
+==30737== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==30737== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==30737== Command: /rhome/b/bkarovic1/workspace/TP/T8/Z2/.runme
+==30737== Parent PID: 30716
+==30737== 
+==30737== Conditional jump or move depends on uninitialised value(s)
+==30737==    at 0x10BD41: std::_Vector_base<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::_M_allocate(unsigned long) (stl_vector.h:172)
+==30737==    by 0x10BAE6: std::_Vector_base<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::_M_create_storage(unsigned long) (stl_vector.h:187)
+==30737==    by 0x10B734: std::_Vector_base<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::_Vector_base(unsigned long, std::allocator<std::shared_ptr<Ucenik> > const&) (stl_vector.h:138)
+==30737==    by 0x10B2A5: std::vector<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::vector(unsigned long, std::allocator<std::shared_ptr<Ucenik> > const&) (stl_vector.h:284)
+==30737==    by 0x1094ED: main (main.cpp:31)
+==30737== 
+==30737== Conditional jump or move depends on uninitialised value(s)
+==30737==    at 0x10C066: std::shared_ptr<Ucenik>* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::shared_ptr<Ucenik>*, unsigned long>(std::shared_ptr<Ucenik>*, unsigned long) (stl_uninitialized.h:526)
+==30737==    by 0x10BDB3: std::shared_ptr<Ucenik>* std::__uninitialized_default_n<std::shared_ptr<Ucenik>*, unsigned long>(std::shared_ptr<Ucenik>*, unsigned long) (stl_uninitialized.h:583)
+==30737==    by 0x10BB79: std::shared_ptr<Ucenik>* std::__uninitialized_default_n_a<std::shared_ptr<Ucenik>*, unsigned long, std::shared_ptr<Ucenik> >(std::shared_ptr<Ucenik>*, unsigned long, std::allocator<std::shared_ptr<Ucenik> >&) (stl_uninitialized.h:645)
+==30737==    by 0x10B7DC: std::vector<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::_M_default_initialize(unsigned long) (stl_vector.h:1347)
+==30737==    by 0x10B2B8: std::vector<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > >::vector(unsigned long, std::allocator<std::shared_ptr<Ucenik> > const&) (stl_vector.h:285)
+==30737==    by 0x1094ED: main (main.cpp:31)
+==30737== 
+==30737== 
+==30737== Process terminating with default action of signal 1 (SIGHUP)
+==30737==    at 0x56EF152: write (write.c:27)
+==30737==    by 0x566A1BC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1203)
+==30737==    by 0x566BF50: new_do_write (fileops.c:457)
+==30737==    by 0x566BF50: _IO_do_write@@GLIBC_2.2.5 (fileops.c:433)
+==30737==    by 0x566C402: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:798)
+==30737==    by 0x5151999: std::ostream::put(char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==30737==    by 0x5151B9E: std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==30737==    by 0x109B28: IspisiIzvjestaj(std::vector<std::shared_ptr<Ucenik>, std::allocator<std::shared_ptr<Ucenik> > > const&) (main.cpp:99)
+==30737==    by 0x10951D: main (main.cpp:34)
+==30737== 
+==30737== HEAP SUMMARY:
+==30737==     in use at exit: 0 bytes in 0 blocks
+==30737==   total heap usage: 2 allocs, 2 frees, 73,728 bytes allocated
+==30737== 
+==30737== All heap blocks were freed -- no leaks are possible
+==30737== 
+==30737== For counts of detected and suppressed errors, rerun with: -v
+==30737== Use --track-origins=yes to see where uninitialised values come from
+==30737== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

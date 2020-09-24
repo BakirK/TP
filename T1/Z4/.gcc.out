@@ -1,0 +1,31 @@
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:14:23: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+          if ( temp != broj ) {
+                       ^~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:20:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+          else if (cin && broj>=0 && broj==temp) {
+                                           ^~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:13:17: warning: unused variable ‘temp2’ [-Wunused-variable]
+          double temp2 = broj-temp;
+                 ^~~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:31:10: error: ‘broj’ was not declared in this scope
+      if( broj == 0) {
+          ^~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:31:10: note: suggested alternative: ‘bool’
+      if( broj == 0) {
+          ^~~~
+          bool
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:36:26: error: ‘broj’ was not declared in this scope
+      for(int i = 1 ; i < broj ; i++) {
+                          ^~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:36:26: note: suggested alternative: ‘bool’
+      for(int i = 1 ; i < broj ; i++) {
+                          ^~~~
+                          bool
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:42:16: error: ‘broj’ was not declared in this scope
+      if(suma < broj) {
+                ^~~~
+/rhome/b/bkarovic1/workspace/TP/T1/Z4/main.cpp:42:16: note: suggested alternative: ‘bool’
+      if(suma < broj) {
+                ^~~~
+                bool

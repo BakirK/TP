@@ -1,0 +1,35 @@
+{
+    "buildhost_description": {
+        "id": "lab002c26",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 1,
+            "run_result": {
+                "output": "Meteoroloska opservatorija Bjelasnica\n-------------------------------------\nDatum mjerenja: 9/11/2014\nMinimalna temperatura: -5\nMaksimalna temperatura: 3\nProsjecna temperatura: -0.75\n\nMobilno mjerno mjesto Aerodrom, stanica II\n------------------------------------------\nDatum mjerenja: 9/11/2014\nMinimalna temperatura: -1\nMaksimalna temperatura: 10\nProsjecna temperatura: 5.20\n\nMeteoroloska stanica Bjelave\n----------------------------\nDatum mjerenja: 23/5/2016\nMinimalna temperatura: 6\nMaksimalna temperatura: 20\nProsjecna temperatura: 13.14\n\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1560956242
+}

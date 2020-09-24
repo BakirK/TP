@@ -1,0 +1,16 @@
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp: In instantiation of ‘Matrica<TipEl>::Matrica(int, int, char) [with TipEl = double]’:
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:598:30:   required from here
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:16:7: warning: ‘Matrica<double>::ime_matrice’ will be initialized after [-Wreorder]
+  char ime_matrice;
+       ^~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:15:10: warning:   ‘double** Matrica<double>::elementi’ [-Wreorder]
+  TipEl **elementi;
+          ^~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:419:1: warning:   when initialized here [-Wreorder]
+ Matrica<TipEl>::Matrica(int br_redova, int br_kolona, char ime) :
+ ^~~~~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp: In instantiation of ‘void Matrica<TipEl>::ObnoviIzTekstualneDatoteke(std::__cxx11::string) [with TipEl = double; std::__cxx11::string = std::__cxx11::basic_string<char>]’:
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:604:43:   required from here
+/rhome/b/bkarovic1/workspace/TP/Z5/Z5/main.cpp:271:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(temp == 1) {
+                ~~~~~^~~~

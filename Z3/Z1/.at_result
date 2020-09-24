@@ -1,0 +1,195 @@
+{
+    "buildhost_description": {
+        "id": "lab002c28",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": ""
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "53": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_53.cpp: In function ‘int main()’:\nbs_test_53.cpp:19:86: error: ‘BaricentricnaInterpolacija’ was not declared in this scope\n     auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);\n                                                                                      ^",
+                "parsed_output": [
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 6,
+                        "col": "86",
+                        "message": "'BaricentricnaInterpolacija' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_53.cpp:19:86: error: ‘BaricentricnaInterpolacija’ was not declared in this scope     auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);                                                                                      ^",
+                        "code": "auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_54.cpp: In function ‘int main()’:\nbs_test_54.cpp:20:63: error: ‘BaricentricnaInterpolacija’ was not declared in this scope\n     auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);\n                                                               ^",
+                "parsed_output": [
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 7,
+                        "col": "63",
+                        "message": "'BaricentricnaInterpolacija' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_54.cpp:20:63: error: ‘BaricentricnaInterpolacija’ was not declared in this scope     auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);                                                               ^",
+                        "code": "auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_55.cpp: In function ‘int main()’:\nbs_test_55.cpp:19:86: error: ‘BaricentricnaInterpolacija’ was not declared in this scope\n     auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);\n                                                                                      ^",
+                "parsed_output": [
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 6,
+                        "col": "86",
+                        "message": "'BaricentricnaInterpolacija' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_55.cpp:19:86: error: ‘BaricentricnaInterpolacija’ was not declared in this scope     auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);                                                                                      ^",
+                        "code": "auto fun = BaricentricnaInterpolacija({{1, 3}, {2, 5}, {4, 4}, {5, 2}, {7, 1}}, 2);"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_56.cpp: In function ‘int main()’:\nbs_test_56.cpp:20:63: error: ‘BaricentricnaInterpolacija’ was not declared in this scope\n     auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);\n                                                               ^",
+                "parsed_output": [
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 7,
+                        "col": "63",
+                        "message": "'BaricentricnaInterpolacija' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_56.cpp:20:63: error: ‘BaricentricnaInterpolacija’ was not declared in this scope     auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);                                                               ^",
+                        "code": "auto fun = BaricentricnaInterpolacija(xxsinx, 0, 1, 0.1, 2);"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "status": 6,
+            "run_result": {
+                "output": "",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "58": {
+            "status": 6,
+            "run_result": {
+                "output": "",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "59": {
+            "status": 6,
+            "run_result": {
+                "output": "",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "60": {
+            "status": 3,
+            "run_result": [],
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 2,
+                "output": "bs_test_60.cpp: In function ‘int main()’:\nbs_test_60.cpp:19:5: error: ‘vector’ is not a member of ‘std’\n     std::vector<std::pair<double, double>> pairs = {\n     ^~~\nbs_test_60.cpp:19:41: error: expected primary-expression before ‘>’ token\n     std::vector<std::pair<double, double>> pairs = {\n                                         ^~\nbs_test_60.cpp:19:44: error: ‘pairs’ was not declared in this scope\n     std::vector<std::pair<double, double>> pairs = {\n                                            ^~~~~\nbs_test_60.cpp:28:51: error: ‘BaricentricnaInterpolacija’ was not declared in this scope\n     auto fun = BaricentricnaInterpolacija(pairs, 3);\n                                                   ^",
+                "parsed_output": [
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 6,
+                        "col": "5",
+                        "message": "'vector' is not a member of 'std'",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_60.cpp:19:5: error: ‘vector’ is not a member of ‘std’     std::vector<std::pair<double, double>> pairs = {     ^~~",
+                        "code": "std::vector<std::pair<double, double>> pairs = {"
+                    },
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 6,
+                        "col": "41",
+                        "message": "expected primary-expression before '>' token",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_60.cpp:19:41: error: expected primary-expression before ‘>’ token     std::vector<std::pair<double, double>> pairs = {                                         ^~",
+                        "code": "std::vector<std::pair<double, double>> pairs = {"
+                    },
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE_GLOBAL_ABOVE",
+                        "line": 6,
+                        "col": "44",
+                        "message": "'pairs' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_60.cpp:19:44: error: ‘pairs’ was not declared in this scope     std::vector<std::pair<double, double>> pairs = {                                            ^~~~~",
+                        "code": "std::vector<std::pair<double, double>> pairs = {"
+                    },
+                    {
+                        "type": "error",
+                        "file": "TEST_CODE",
+                        "line": 8,
+                        "col": "51",
+                        "message": "'BaricentricnaInterpolacija' was not declared in this scope",
+                        "output": "/tmp/buildservice/bs_1496/bs_test_60.cpp:28:51: error: ‘BaricentricnaInterpolacija’ was not declared in this scope     auto fun = BaricentricnaInterpolacija(pairs, 3);                                                   ^",
+                        "code": "auto fun = BaricentricnaInterpolacija(pairs, 3);"
+                    }
+                ]
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1558206908
+}

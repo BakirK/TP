@@ -1,0 +1,20 @@
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp: In function ‘bool operator==(const Kompleksni&, const Kompleksni&)’:
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:51:20: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re == b.re && a.im == b.im;
+                    ^~
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:51:36: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re == b.re && a.im == b.im;
+                                    ^~
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Kompleksni&)’:
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:124:14: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  if (a.re == 0) {
+              ^
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:138:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  } else if (a.im == 0) {
+                     ^
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:142:22: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  } else if (a.im == -1) {
+                      ^
+/rhome/b/bkarovic1/workspace/TP/T12/Z4/main.cpp:144:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  } else if (a.im == 1) {
+                     ^

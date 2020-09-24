@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/T9/Z2/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/T9/Z2/main.cpp:74:14: warning: unused variable ‘v1’ [-Wunused-variable]
+     Vektor3d v1, v2;
+              ^~

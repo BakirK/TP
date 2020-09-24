@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/T7/Z4/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/T7/Z4/main.cpp:21:59: error: expected primary-expression before ‘)’ token
+    recenice[i] = std::make_shared<std::string>(std::string);
+                                                           ^

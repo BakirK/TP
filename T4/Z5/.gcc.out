@@ -1,0 +1,9 @@
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp: In instantiation of ‘std::vector<someType> Presjek(std::vector<someType>, std::vector<someType>) [with someType = double]’:
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp:62:44:   required from here
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp:20:26: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if (v1.at(i) == v2.at(j)) {
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp: In instantiation of ‘bool isInside(someType, std::vector<someType>) [with someType = double]’:
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp:21:31:   required from ‘std::vector<someType> Presjek(std::vector<someType>, std::vector<someType>) [with someType = double]’
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp:62:44:   required from here
+/rhome/b/bkarovic1/workspace/TP/T4/Z5/main.cpp:8:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if (duplikati.at(i) == element) {

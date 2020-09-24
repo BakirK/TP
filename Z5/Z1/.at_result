@@ -1,0 +1,578 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In instantiation of ‘Tok<TipEl, Kontejner>::<lambda(TipEl, TipEl)> [with TipEl = double; Kontejner = std::vector]’:\nmain.cpp:272:84:   required from ‘struct Tok<double>::<lambda(double, double)>’\nmain.cpp:378:89:   required from here\nmain.cpp:272:115: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n     Tok<TipEl, Kontejner> Unikatno(std::function<bool(TipEl, TipEl)> komparator = [](TipEl x, TipEl y) { return x == y; }) const {\n                                                                                                                 ~~^~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "272",
+                "col": "115",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_3035/main.cpp:272:115: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]     Tok<TipEl, Kontejner> Unikatno(std::function<bool(TipEl, TipEl)> komparator = [](TipEl x, TipEl y) { return x == y; }) const {                                                                                                                 ~~^~~~",
+                "code": "Tok<TipEl, Kontejner> Unikatno(std::function<bool(TipEl, TipEl)> komparator = [](TipEl x, TipEl y) { return x == y; }) const {"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "3803": {
+            "status": 1,
+            "run_result": {
+                "output": "2\n4\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3804": {
+            "status": 1,
+            "run_result": {
+                "output": "543210",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3805": {
+            "status": 1,
+            "run_result": {
+                "output": "2 0",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3806": {
+            "status": 1,
+            "run_result": {
+                "output": "1.1 2.2 3.3 4.4 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3807": {
+            "status": 1,
+            "run_result": {
+                "output": "Tehnike programiranja\n4321",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3808": {
+            "status": 1,
+            "run_result": {
+                "output": "Suma 16.5\nProdukt 193.261200",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3809": {
+            "status": 1,
+            "run_result": {
+                "output": "9 8 7 6 5 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3810": {
+            "status": 1,
+            "run_result": {
+                "output": "3 2 1 0 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3811": {
+            "status": 1,
+            "run_result": {
+                "output": "5, 3, 18, 9, 11, (11) (9) (18) (3) (5) [5][3][18][9][11]",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3812": {
+            "status": 1,
+            "run_result": {
+                "output": "\nPrije Preskoci(2): 1 2 3 4 5 6 7 \nNakon Preskoci(2) a prije Limitiraj(3): 3 4 5 6 7 \nNakon Limitiraj(3) a prije Preskoci(1): 3 4 5 \nPoslije Preskoci(1): 4 5 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3813": {
+            "status": 1,
+            "run_result": {
+                "output": "10 20 30 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3814": {
+            "status": 1,
+            "run_result": {
+                "output": "Tok: 1 2 3 \nNakon mapiranja/negiranja: -1 -2 -3 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3815": {
+            "status": 1,
+            "run_result": {
+                "output": "Tok: 1 2 3 \nNakon mapiranja/negiranja: -1 -2 -3 \nNakon invertovanja: -1.000000 -0.500000 -0.333333 \nNakon dijeljenja s 100: -0.010000 -0.005000 -0.003333 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3816": {
+            "status": 1,
+            "run_result": {
+                "output": "-2 -4 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3817": {
+            "status": 1,
+            "run_result": {
+                "output": "1 2 3 4 5 6 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3818": {
+            "status": 1,
+            "run_result": {
+                "output": "Barem jedan trocifren porzivan: true\nBarem jedan negativan: true\nSvi veci od -5: true\nSvi pozitivni: false\nNijedan pozitivan: false\nNijedan negativan: false\nNijedan veci od 1000: true\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3819": {
+            "status": 1,
+            "run_result": {
+                "output": "ACEGIKMOQSUWY\nACEGIKMOQSUWY",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3820": {
+            "status": 1,
+            "run_result": {
+                "output": "1 2 3 4 5 6 7 8 9 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3821": {
+            "status": 1,
+            "run_result": {
+                "output": "1 2 3 4 5 6 7 8 9 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3822": {
+            "status": 1,
+            "run_result": {
+                "output": "1 12 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3823": {
+            "status": 1,
+            "run_result": {
+                "output": "0 Err: 'Tok je prazan'\nErr: 'Tok je prazan'\nErr: 'Tok je prazan'\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3824": {
+            "status": 1,
+            "run_result": {
+                "output": "5 2 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3825": {
+            "status": 1,
+            "run_result": {
+                "output": "0 Err: 'Tok je prazan'\nErr: 'Tok je prazan'\nErr: 'Tok je prazan'\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3826": {
+            "status": 1,
+            "run_result": {
+                "output": "provirio (1): 1\nprovirio (1): 2\nprovirio (1): 3\nprovirio (2): 100\nprovirio (2): 200\nprovirio (2): 300\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3827": {
+            "status": 1,
+            "run_result": {
+                "output": "0 13 5 1 -250000 Err: 'Tok je prazan'\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3828": {
+            "status": 1,
+            "run_result": {
+                "output": "3 13 5 3 250000 Err: 'Tok je prazan'\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3829": {
+            "status": 1,
+            "run_result": {
+                "output": "93317",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3830": {
+            "status": 1,
+            "run_result": {
+                "output": "0 0 0 0 1 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3831": {
+            "status": 1,
+            "run_result": {
+                "output": "3 3 3 3 2 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3832": {
+            "status": 1,
+            "run_result": {
+                "output": "Err: 'Tok je prazan'\nErr: 'Tok je prazan'\nErr: 'Tok je prazan'\nErr: 'Tok je prazan'\n9",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3833": {
+            "status": 1,
+            "run_result": {
+                "output": "Tref1 Tref2 Tref3 Tref4 Tref5 Tref6 Tref7 Tref8 Tref9 Tref10 Tref11 Tref12 Tref13 Tref14 Pik1 Pik2 Pik3 Pik4 Pik5 Pik6 Pik7 Pik8 Pik9 Pik10 Pik11 Pik12 Pik13 Pik14 Srce1 Srce2 Srce3 Srce4 Srce5 Srce6 Srce7 Srce8 Srce9 Srce10 Srce11 Srce12 Srce13 Srce14 Karo1 Karo2 Karo3 Karo4 Karo5 Karo6 Karo7 Karo8 Karo9 Karo10 Karo11 Karo12 Karo13 Karo14 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3834": {
+            "status": 1,
+            "run_result": {
+                "output": "Tref: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}\nPik: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}\nSrce: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}\nKaro: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3835": {
+            "status": 1,
+            "run_result": {
+                "output": "Tref: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \nPik: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \nSrce: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \nKaro: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3836": {
+            "status": 1,
+            "run_result": {
+                "output": "set: 10 20 30 40 70 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3837": {
+            "status": 1,
+            "run_result": {
+                "output": "cba",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3838": {
+            "status": 1,
+            "run_result": {
+                "output": "9998",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3839": {
+            "status": 1,
+            "run_result": {
+                "output": "40",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3840": {
+            "status": 1,
+            "run_result": {
+                "output": "{0: 1}, {1: 0.5}, {2: 0.333333}, {3: 0.25}, {4: 0.2}, {5: 0.166667}, {6: 0.142857}, {7: 0.125}, {8: 0.111111}, {9: 0.1}, {10: 0.0909091}, {11: 0.0833333}, ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3841": {
+            "status": 1,
+            "run_result": {
+                "output": "1 -1 2 5 7 -3 0 ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1561023376
+}

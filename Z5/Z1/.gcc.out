@@ -1,0 +1,6 @@
+/rhome/b/bkarovic1/workspace/TP/Z5/Z1/main.cpp: In instantiation of ‘Tok<TipEl, Kontejner>::<lambda(TipEl, TipEl)> [with TipEl = double; Kontejner = std::vector]’:
+/rhome/b/bkarovic1/workspace/TP/Z5/Z1/main.cpp:272:84:   required from ‘struct Tok<double>::<lambda(double, double)>’
+/rhome/b/bkarovic1/workspace/TP/Z5/Z1/main.cpp:378:89:   required from here
+/rhome/b/bkarovic1/workspace/TP/Z5/Z1/main.cpp:272:115: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     Tok<TipEl, Kontejner> Unikatno(std::function<bool(TipEl, TipEl)> komparator = [](TipEl x, TipEl y) { return x == y; }) const {
+                                                                                                                 ~~^~~~

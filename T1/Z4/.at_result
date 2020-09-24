@@ -1,0 +1,133 @@
+{
+    "buildhost_description": {
+        "id": "lab002c28",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In function ‘int main()’:\nmain.cpp:18:23: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n          if ( temp != broj ) {\n                       ^~~~\nmain.cpp:24:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n          else if (cin && broj>=0 && broj==temp) {\n                                           ^~~~\nmain.cpp:17:17: warning: unused variable ‘temp2’ [-Wunused-variable]\n          double temp2 = broj-temp;\n                 ^~~~~\nmain.cpp:35:18: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n      if( broj == 0) {\n                  ^\nmain.cpp:41:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n          if(std::fmod(broj, i) == 0) {\n                                   ^\nmain.cpp:49:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]\n      else if (suma==broj) {\n                     ^~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "18",
+                "col": "23",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:18:23: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]          if ( temp != broj ) {                       ^~~~",
+                "code": "if ( temp != broj ) {"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "24",
+                "col": "43",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:24:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]          else if (cin && broj>=0 && broj==temp) {                                           ^~~~",
+                "code": "else if (cin && broj>=0 && broj==temp) {"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "17",
+                "col": "17",
+                "message": "unused variable 'temp2'",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:17:17: warning: unused variable ‘temp2’ [-Wunused-variable]          double temp2 = broj-temp;                 ^~~~~",
+                "code": "double temp2 = broj-temp;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "35",
+                "col": "18",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:35:18: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]      if( broj == 0) {                  ^",
+                "code": "if( broj == 0) {"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "41",
+                "col": "35",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:41:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]          if(std::fmod(broj, i) == 0) {                                   ^",
+                "code": "if(std::fmod(broj, i) == 0) {"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "49",
+                "col": "21",
+                "message": "comparing floating point with == or != is unsafe",
+                "output": "/tmp/buildservice/bs_2841/main.cpp:49:21: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]      else if (suma==broj) {                     ^~~~",
+                "code": "else if (suma==broj) {"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "3136": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prirodan broj ili 0 za kraj: Broj 42 je obilan!\nUnesite prirodan broj ili 0 za kraj: Broj 28 je savrsen!\nUnesite prirodan broj ili 0 za kraj: Broj 49 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Dovidjenja!\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3137": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prirodan broj ili 0 za kraj: Broj 6 je savrsen!\nUnesite prirodan broj ili 0 za kraj: Broj 5 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 7 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 8 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Broj 3 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 4 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Dovidjenja!\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3140": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prirodan broj ili 0 za kraj: Broj 6 je savrsen!\nUnesite prirodan broj ili 0 za kraj: Broj 228 je obilan!\nUnesite prirodan broj ili 0 za kraj: Broj 28 je savrsen!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Broj 1 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Dovidjenja!\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3141": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite prirodan broj ili 0 za kraj: Broj 1 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 2 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 3 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 4 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 5 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Broj 6 je savrsen!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Broj 484 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Niste unijeli prirodan broj!\nUnesite prirodan broj ili 0 za kraj: Broj 44 je manjkav!\nUnesite prirodan broj ili 0 za kraj: Dovidjenja!\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1552407723
+}

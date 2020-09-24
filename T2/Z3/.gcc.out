@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/T2/Z3/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/T2/Z3/main.cpp:17:14: warning: unused variable ‘c’ [-Wunused-variable]
+         char c;
+              ^

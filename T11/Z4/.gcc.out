@@ -1,0 +1,20 @@
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp: In constructor ‘Liga::Liga(int)’:
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:104:12: warning: ‘Liga::max_br_timova’ will be initialized after [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:103:6: warning:   ‘int Liga::br_timova’ [-Wreorder]
+  int br_timova;
+      ^~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:118:11: warning:   when initialized here [-Wreorder]
+  explicit Liga(int velicina_lige): max_br_timova(velicina_lige), br_timova(0)
+           ^~~~
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp: In copy constructor ‘Liga::Liga(const Liga&)’:
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:104:12: warning: ‘Liga::max_br_timova’ will be initialized after [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:103:6: warning:   ‘int Liga::br_timova’ [-Wreorder]
+  int br_timova;
+      ^~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T11/Z4/main.cpp:158:2: warning:   when initialized here [-Wreorder]
+  Liga(const Liga &l): max_br_timova(l.DajMaxBrojTimova()), br_timova(l.DajBrojTimova())
+  ^~~~

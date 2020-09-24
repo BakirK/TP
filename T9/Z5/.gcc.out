@@ -1,0 +1,21 @@
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp: In member function ‘void Sat::PostaviNormalizirano(int, int, int)’:
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp:27:9: error: ‘class Sat’ has no member named ‘sati’; did you mean ‘Sat’?
+   this->sati = (suma / 3600) % 24;
+         ^~~~
+         Sat
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp:29:9: error: ‘class Sat’ has no member named ‘minute’; did you mean ‘DajMinute’?
+   this->minute = (suma / 60) % 60;
+         ^~~~~~
+         DajMinute
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp:30:17: error: ‘class Sat’ has no member named ‘minute’; did you mean ‘DajMinute’?
+   suma -= this->minute * 60;
+                 ^~~~~~
+                 DajMinute
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp:32:13: error: ‘class Sat’ has no member named ‘sati’; did you mean ‘Sat’?
+   if (this->sati == 24) {
+             ^~~~
+             Sat
+/rhome/b/bkarovic1/workspace/TP/T9/Z5/main.cpp:33:10: error: ‘class Sat’ has no member named ‘sati’; did you mean ‘Sat’?
+    this->sati = 0;
+          ^~~~
+          Sat

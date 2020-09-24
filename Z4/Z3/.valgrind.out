@@ -1,0 +1,32 @@
+==19528== Memcheck, a memory error detector
+==19528== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19528== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19528== Command: /rhome/b/bkarovic1/workspace/TP/Z4/Z3/.runme
+==19528== Parent PID: 19441
+==19528== 
+==19528== 
+==19528== Process terminating with default action of signal 1 (SIGHUP)
+==19528==    at 0x56EF152: write (write.c:27)
+==19528==    by 0x566A1BC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1203)
+==19528==    by 0x566AB2E: new_do_write (fileops.c:457)
+==19528==    by 0x566AB2E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1277)
+==19528==    by 0x565E976: fwrite (iofwrite.c:39)
+==19528==    by 0x5151E93: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==19528==    by 0x5152206: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==19528==    by 0x10B112: main (main.cpp:437)
+==19528== 
+==19528== HEAP SUMMARY:
+==19528==     in use at exit: 104 bytes in 1 blocks
+==19528==   total heap usage: 6 allocs, 5 frees, 74,073 bytes allocated
+==19528== 
+==19528== LEAK SUMMARY:
+==19528==    definitely lost: 0 bytes in 0 blocks
+==19528==    indirectly lost: 0 bytes in 0 blocks
+==19528==      possibly lost: 0 bytes in 0 blocks
+==19528==    still reachable: 104 bytes in 1 blocks
+==19528==         suppressed: 0 bytes in 0 blocks
+==19528== Reachable blocks (those to which a pointer was found) are not shown.
+==19528== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==19528== 
+==19528== For counts of detected and suppressed errors, rerun with: -v
+==19528== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

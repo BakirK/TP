@@ -1,0 +1,2 @@
+/usr/bin/ld: cannot open output file /rhome/b/bkarovic1/workspace/TP/ZSR1/Z1/.runme: No space left on device
+collect2: error: ld returned 1 exit status

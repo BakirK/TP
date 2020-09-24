@@ -1,0 +1,22 @@
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp: In instantiation of ‘Matrica<TipEl>::Matrica(int, int, char) [with TipEl = double]’:
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:312:30:   required from here
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:14:7: warning: ‘Matrica<double>::ime_matrice’ will be initialized after [-Wreorder]
+  char ime_matrice;
+       ^~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:13:10: warning:   ‘double** Matrica<double>::elementi’ [-Wreorder]
+  TipEl **elementi;
+          ^~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:149:1: warning:   when initialized here [-Wreorder]
+ Matrica<TipEl>::Matrica(int br_redova, int br_kolona, char ime) :
+ ^~~~~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp: In instantiation of ‘Matrica<TipEl>::Matrica(const Matrica<TipEl>&) [with TipEl = double]’:
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:317:27:   required from here
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:14:7: warning: ‘Matrica<double>::ime_matrice’ will be initialized after [-Wreorder]
+  char ime_matrice;
+       ^~~~~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:13:10: warning:   ‘double** Matrica<double>::elementi’ [-Wreorder]
+  TipEl **elementi;
+          ^~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T12/Z6/main.cpp:162:1: warning:   when initialized here [-Wreorder]
+ Matrica<TipEl>::Matrica(const Matrica<TipEl> &m) : br_redova(m.br_redova),
+ ^~~~~~~~~~~~~~

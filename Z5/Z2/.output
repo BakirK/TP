@@ -1,0 +1,30 @@
+Minimalna cijena: 0
+Maksimalna cijena: 1000
+radi operator !.
+Broj cijena vecih od 500 treba bit 3 a tebi je: 3
+10.00
+9.99
+5.01
+5.00
+0.00
+Prva cijena je (0) 0 a zadnja (999) 999
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Treba ispisat 1000 a tebi je: 1000
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Treba ispisat 600 a tebi je: 600
+Treba ispisat 500 a tebi je: 500
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Treba ispisat 200 a tebi je: 200
+Treba ispisat 250 a tebi je: 250
+Treba ispisat 300 a tebi je: 300
+Treba ispisat 250 a tebi je: 250
+Treba ispisat 200 a tebi je: 200
+Treba ispisat 100 a tebi je: 100
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Ovo se trebalo ispisati
+Treba ispisat 900 a tebi je: 900

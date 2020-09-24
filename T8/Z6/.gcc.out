@@ -1,0 +1,5 @@
+/rhome/b/bkarovic1/workspace/TP/T8/Z6/main.cpp: In instantiation of ‘Cvor<TipElemenata>* KreirajPovezanuListu(TipElemenata) [with TipElemenata = double]’:
+/rhome/b/bkarovic1/workspace/TP/T8/Z6/main.cpp:102:59:   required from here
+/rhome/b/bkarovic1/workspace/TP/T8/Z6/main.cpp:17:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     while (temp != zavrsni) {
+            ~~~~~^~~~~~~~~~

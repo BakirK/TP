@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/Z2/Z1/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/Z2/Z1/main.cpp:97:10: warning: unused variable ‘aktivan’ [-Wunused-variable]
+     bool aktivan;
+          ^~~~~~~

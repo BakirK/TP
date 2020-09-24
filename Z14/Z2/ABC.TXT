@@ -1,0 +1,6 @@
+B Ulje neko
+60.1 50
+S Tepsije
+10 5 3
+S Nesto
+1000 2 400.5

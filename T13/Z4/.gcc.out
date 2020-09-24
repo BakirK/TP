@@ -1,0 +1,14 @@
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp: In lambda function:
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp:160:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+    if (s1->DajProsjek() == s2->DajProsjek())
+                                           ^
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp: At global scope:
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp:257:11: error: prototype for ‘Fakultet& Fakultet::operator=(Fakultet)’ does not match any in class ‘Fakultet’
+ Fakultet &Fakultet::operator=(Fakultet f)
+           ^~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp:117:12: error: candidates are: Fakultet& Fakultet::operator=(Fakultet&&)
+  Fakultet &operator=(Fakultet &&f);
+            ^~~~~~~~
+/rhome/b/bkarovic1/workspace/TP/T13/Z4/main.cpp:237:11: error:                 Fakultet& Fakultet::operator=(const Fakultet&)
+ Fakultet &Fakultet::operator=(const Fakultet &f)
+           ^~~~~~~~

@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/T2/Z1/main.cpp: In function ‘std::vector<int> ProstiBrojeviUOpsegu(int, int)’:
+/rhome/b/bkarovic1/workspace/TP/T2/Z1/main.cpp:23:65: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if (std::ceil(std::sqrt(i))==std::floor(std::sqrt(i))) {
+                                                                 ^

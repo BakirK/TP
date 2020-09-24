@@ -1,0 +1,16 @@
+Originalni student: 
+-----------------
+Student bachelor studija Dusko Dugousko, sa brojem indeksa 1234,
+ima prosjek 7.5.
+Kopija student: 
+-----------------
+Student bachelor studija Dusko Dugousko, sa brojem indeksa 1234,
+ima prosjek 7.5.
+Originalni student nakon izmjene: 
+-----------------
+Student bachelor studija Dusko Dugousko, sa brojem indeksa 1234,
+ima prosjek 8.
+Kopija student: 
+-----------------
+Student bachelor studija Dusko Dugousko, sa brojem indeksa 1234,
+ima prosjek 7.5.

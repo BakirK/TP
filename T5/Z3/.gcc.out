@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/T5/Z3/main.cpp: In lambda function:
+/rhome/b/bkarovic1/workspace/TP/T5/Z3/main.cpp:81:45: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return (std::ceil(temp) == std::floor(temp));
+                                             ^

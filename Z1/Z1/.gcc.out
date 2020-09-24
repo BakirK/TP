@@ -1,0 +1,4 @@
+/rhome/b/bkarovic1/workspace/TP/Z1/Z1/main.cpp: In function ‘int main()’:
+/rhome/b/bkarovic1/workspace/TP/Z1/Z1/main.cpp:84:71: error: conversion from ‘std::vector<int>’ to non-scalar type ‘std::vector<long long unsigned int>’ requested
+  std::vector<unsigned long long int> otpornost = PalindromskaOtpornost(numbers);
+                                                  ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
